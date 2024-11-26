@@ -15,7 +15,7 @@ public class Medicamento {
 	private Integer codigo;
 	@Column(name="nom_med")
 	private String nombre;
-	@Column(name="stock_med")
+	@Column(name="sto_med")
 	private int stock;
 	@Column(name="pre_med")
 	private double precio;
